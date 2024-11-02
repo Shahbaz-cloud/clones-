@@ -1,0 +1,383 @@
+*{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;
+
+}
+.navabar{
+    height: 70px;
+    width:100%;
+    background-color:white;
+    color:#474748;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.nav-logo{
+    height:30px;
+    width:100px;
+
+}
+.logo{
+    background-image:url("https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg");
+    background-size: cover;
+    height:30px;
+    width:100%;
+
+}
+.border{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    font-weight: 400;
+    border:2px solid transparent;
+}
+.border:hover{
+    border:1.5px solid black;
+
+}
+.Search{
+    font-size:1.1rem;
+    display:flex;
+    justify-content: space-evenly;
+    background-color:white;
+    width:620px;
+    height:40px;
+    border-radius:4px;
+
+
+
+}
+.search-class{
+    height:40px;
+    width:100%;
+    font-size:1.1rem;
+    border:none;
+    outline:none;
+    background: transparent;
+
+
+}
+.search-icon{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.2rem;
+    background-color: white;
+    border-top-right-radius:4px ;
+    border-bottom-right-radius:4px ;
+    color:black;
+
+}
+
+div > .ldicon{
+    font-size:0.7rem;
+
+}
+
+/* category */
+.category{
+    height:126px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    margin:10px 0px;
+    
+
+}
+
+/* container */
+.slidecontainer{
+    height: 240px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.slider{
+    height:220px;
+    width:100%;
+    background-image: url("https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/126619f56d1f3607.jpg?q=20");
+    position:relative;
+
+}
+.slidericon{
+    height:100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sileft{
+    height:80px;
+    width:40px;
+    color:#8b8b8b;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.siright{
+    height:80px;
+    width:40px;
+    color:#8b8b8b;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* hero */
+.productsectional{
+    height: 345px;
+    width:100%;
+    display: flex;
+    margin-top:10px;
+    gap:15px;
+
+}
+
+.psright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+}
+.psright img{
+    height:320px;
+    width:210px;
+
+
+}
+.psleft{
+    height:100%;
+    width:1100px;
+    background-color: white;
+
+}
+
+.productheader{
+    height:80px;
+    width:100%;
+    padding: 0px 20px;
+    display:flex;
+    align-items: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.productheader h1{
+    color:#212121;
+
+}
+.productheader i{
+    height:24px;
+    width:24px;
+    color:white;
+    background-color: #1c41dc;
+    border-radius:50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    
+
+
+}
+
+.product{
+    height: 250px;
+    width:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border:1px groove #bdbdbd;
+    border-radius:3px;
+    margin:0px 13px;
+}
+.product img{
+    height:150px;
+    width:185px;
+    padding:0px 10px;
+
+
+}
+.productinfo{
+    text-align: center;
+    margin-top: 30px;
+}
+.productinfo p{
+    font-size:0.9rem;
+
+}
+.productinfo h5{
+    color:#212121;
+    margin-top: 5px;
+
+}
+.productgroup{
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+}
+.productright{
+    position: absolute;
+    height:88px;
+    width:40px;
+    background-color: white;
+    color:#8b8b8b;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    top:32%;
+    right:0;
+
+
+}
+.productsectional1{
+    height:345px;
+    width:100%;
+    margin-top: 20px;
+}
+.psleft1{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+
+}
+
+.productsectional2{
+    height:345px;
+    width:100%;
+    margin-top: 20px;
+}
+.psleft2{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+
+}
+
+
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color:white;
+    height:250px;
+    width: 100%;
+    display: flex;
+    font-size: 0.85rem;
+    justify-content: center;
+    align-items: center;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height:500px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul{
+    margin-top: 2opx;
+}
+ul a{
+    display:block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color:#dddddd;
+
+
+}
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top:0.5px solid white;
+    height:70px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.logo{
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg");
+    background-size: cover;
+    height:30px;
+    width:100px;
+
+}
+.foot-panel4{
+    background-color: #0f1111;
+    color:white;
+    height:8px;
+    font-size:0.7rem;
+    text-align:center;
+
+}
+.pages{
+    padding-top: 25px;
+
+}
+    
+
+.copyright{
+    padding-top:5px;
+}
+
+
+.branddirectory{
+    height:450px;
+    width:100%;
+    border:1px solid;
+    padding-top:50px;
+    margin-top:40px;
+    color:#565656;
+    background-color: #eeeeee;
+
+
+}
+.linkheader{
+    padding-left: 15px;
+}
+.directorylink{
+    margin: 15px;
+    padding-left: 15px;
+}
+
+.directorylink span {
+    font-size: 0.9rem;
+}
+
+.directorylink a{
+    font-size: 0.8rem;
+    color: #565656;
+}
+
+.footbtm{
+    height: 70px;
+    width:100%;
+    border-top:1px groove #454d5e;
+
+}
+.footbtmgrp{
+    height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 0.7rem;
+    padding: 0px 30px;
+}
